@@ -9,7 +9,7 @@ body {
     background-color: white;
 }
 
-#dunwichTitle {
+header > #dunwichTitle {
     color: #921da1;
     font-family: "Times New Roman";
     font-style: bold;
@@ -27,10 +27,4 @@ hr {
 #byLovecraft {
     font-size: 1.5em;
     margin-top: 0;
-}
-
-.unreadable {
-    background-image: url("../img/cool-blue-shoot.jpg");
-    background-position: center;
-    background-size: cover;
 }
