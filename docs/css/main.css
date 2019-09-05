@@ -9,6 +9,14 @@ body {
     background-color: white;
 }
 
+p {
+    margin: 0;
+}
+
+.sMargin {
+    margin: 1em;
+}
+
 header > #dunwichTitle {
     color: #921da1;
     font-family: "Times New Roman";
@@ -19,12 +27,21 @@ header > #dunwichTitle {
 
 hr {
     margin: 30px 0;
-    height: 0px;
-    border-color: transparent;
+    border: 0;
+    border-top: 1px dotted black;
     background-color: black;
 }
 
-#byLovecraft {
+blockquote {
+    border-left: 4px solid #921da1;
+    padding-left: 10px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    background-color: rgb(243, 243, 243);
+}
+
+header > #byLovecraft {
     font-size: 1.5em;
     margin-top: 0;
+    margin-bottom: 0;
 }
