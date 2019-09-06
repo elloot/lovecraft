@@ -17,6 +17,21 @@ p {
     margin: 1em;
 }
 
+.collapsible {
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-family: "Lato";
+    font-size: 1.5em;
+}
+
+.collapsible:hover {
+    /*background-color: rgb(241, 241, 241);*/
+}
+
 header > #dunwichTitle {
     color: #921da1;
     font-family: "Times New Roman";
