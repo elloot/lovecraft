@@ -10,23 +10,27 @@ nav {
     width: 20%;
 }
 
+nav > ul {
+    position: fixed;
+}
+
 body {
     background-color: white;
 }
 
 .book {
-    width: 60%;
+    width: 80%;
 }
 
-/*p {
+p {
     margin: 0;
 }
 
-/*.sMargin {
+.sMargin {
     margin: 1em;
 }
 
-.collapsible {
+/*.collapsible {
     background-color: transparent;
     color: black;
     cursor: pointer;
